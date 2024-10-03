@@ -1,0 +1,49 @@
+<html>
+    <head>
+        <title>Weather Forecasting</title>
+        <link rel="stylesheet" href="forecast.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    </head>
+    <body id="body">
+        <div class="col-lg-5 col-md-6 col-sm-6 col-xs-6" id="main">
+        <h1>Weather Forecasting</h1>
+        <br>
+        <input placeholder="Enter city name" id="u">
+        <button id="b" onclick="c()" class="btn btn-default glyphicon glyphicon-search"></button>
+        <br>
+        <br>
+        <h4 id="h4"></h4>
+
+        <div id="ans">
+            <img src=""id="img">
+        <br>
+        <h2 id="nop">Delhi</h2><h3 id="t">32°C</h3>
+        <br><br>
+        <label>Min Temperature: </label><label id="mit"></label>
+        <br><br>
+        <label>Max Temperature: </label><label id="mat"></label>
+        <br><br>
+        <label >Description: </label><label id="d"></label>
+        <br><br>
+        <div id="wind">
+            <img src="wind.png" class="i">
+            <label>Wind speed: </label><label id="w"></label>
+        </div>
+        
+        <div id="humid">
+            <img src="humidity.png" class="i">
+            <label>Humidity: </label><label id="h"></label>
+        </div>
+        <br>
+        </div>
+        </div>
+        
+        
+    </body>
+    <script src="style.js"></script>
+</html>
